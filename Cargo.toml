@@ -8,7 +8,7 @@ repository = "https://github.com/sithpow/att_availability_checker"
 homepage = "https://sithpow.github.io/att_availability_checker/"
 documentation = "https://sithpow.github.io/att_availability_checker/"
 license-file = "LICENSE.txt"
-keywords = ["att fiber", "simple"]
+keywords = ["cli", "simple"]
 categories = ["command-line-utilities"]
 
 
