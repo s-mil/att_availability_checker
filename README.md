@@ -1,31 +1,14 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="ATT Availability Checker"></a>
 
 
 
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/sithpow/att_availability_checker">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
 
 <h3 align="center">project_title</h3>
 
@@ -76,15 +59,14 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `sithpow`, `att_availability_checker`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+A basic script to check if a given address has att fiber availible
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 ### Built With
-
+Rust
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -97,9 +79,13 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+Have rust installed
 
 ### Installation
+
+clone the repo
+
+cargo build
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -109,7 +95,10 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+```cargo run <zip code> "<street address>"```
+``` cargo run 12345 "123 main street"```
+
+Returns true if att fiber is available
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -136,7 +125,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `license` for more information.
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
