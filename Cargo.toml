@@ -2,7 +2,14 @@
 name = "check_att"
 version = "0.1.0"
 edition = "2021"
-authors = "Sam Miller <smiller2033@gmail.com>
+authors = ["Sam Miller <smiller2033@gmail.com>"]
+description = "A small script to check if a house has ATT fiber availible"
+respository = "https://github.com/sithpow/att_availability_checker"
+license-file = "license"
+keywords = ["att fiber", "simple"]
+categories = ["command-line-utilities"]
+
+
 
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
