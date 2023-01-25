@@ -5,7 +5,7 @@ edition = "2021"
 authors = ["Sam Miller <smiller2033@gmail.com>"]
 description = "A small script to check if a house has ATT fiber availible"
 respository = "https://github.com/sithpow/att_availability_checker"
-license-file = "license"
+license-file = "License.txt"
 keywords = ["att fiber", "simple"]
 categories = ["command-line-utilities"]
 
