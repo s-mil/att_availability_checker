@@ -1,5 +1,7 @@
 use std::env;
 use reqwest;
+use serde_json::json;
+use serde_json::Value;
 
 
 #[cfg(not(target_arch = "wasm32"))]
@@ -8,21 +10,22 @@ async fn main()-> Result<(), reqwest::Error> {
  
 
     let args: Vec<String> = env::args().collect();
-    dbg!("{:?}",&args);
-    let echo_json = reqwest::Client::new()
+
+    let echo_json: Value = reqwest::Client::new()
         .get("https://www.att.com/services/shop/model/ecom/shop/view/unified/qualification/service/CheckAvailabilityRESTService/invokeCheckAvailability")
-        .query(&[("userInputZip","774229"), 
-                ("userInputAddressLine1", "14307 Cypress Valley Drive"),
-                ("mode", "fullAddress")])
+        .query(&[("userInputZip",args[1].to_string()), 
+                ("userInputAddressLine1", args[2].to_string()),
+                ("mode", "fullAddress".to_string())])
         .header("Accept", "*/*")
         .header("Connection", "keep-alive")
-        .header("Accept-Encoding", "gzip, deflate, br")
         .header("Content-Type", "Application/Json")
         .send()
         .await?
-        .text()
+        .json()
         .await?;
-    println!("{:#?}", echo_json);
+
+    println!("{:?}", json!(echo_json).get("profile").expect("Not found").get("isGIGAFiberAvailable").unwrap().as_bool().unwrap()
+);
 
 
     Ok(())
