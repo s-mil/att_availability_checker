@@ -10,10 +10,10 @@
 
 
 
-<h3 align="center">project_title</h3>
+<h3 align="center">ATT Availability Checker</h3>
 
   <p align="center">
-    project_description
+    A basic script to check if a given address has att fiber availible
     <br />
     <a href="https://github.com/sithpow/att_availability_checker"><strong>Explore the docs »</strong></a>
     <br />
