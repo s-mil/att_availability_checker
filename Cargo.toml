@@ -2,7 +2,7 @@
 name = "check_att"
 version = "0.1.0"
 edition = "2021"
-authors = ["Sam Miller <smiller2033@gmail.com>"]
+authors = ["Sam Miller"]
 description = "A small script to check if a house has ATT fiber availible"
 repository = "https://github.com/sithpow/att_availability_checker"
 homepage = "https://sithpow.github.io/att_availability_checker/"
