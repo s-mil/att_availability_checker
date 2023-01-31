@@ -1,14 +1,10 @@
 <a name="ATT Availability Checker"></a>
 
-
-
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-
-
 
 <h3 align="center">ATT Availability Checker</h3>
 
@@ -63,14 +59,6 @@ A basic script to check if a given address has att fiber availible
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-### Built With
-Rust
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -83,11 +71,9 @@ Have rust installed
 
 ### Installation
 
-clone the repo
-
-cargo build
-
-
+```shell
+cargo install check-att
+```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -95,14 +81,38 @@ cargo build
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-```cargo run <zip code> "<street address>"```
-``` cargo run 12345 "123 main street"```
+1. Single address check Returns true if att fiber is available
 
-Returns true if att fiber is available
+```check-att <zip code> "<street address>"```
+```check-att 12345 "123 main street"```
+
+2. Use a json formated input to check multiple addresses
+
+```shell
+check-att --json-file <path to file>
+```
+
+```shell
+check-att --json-file ./houses.json
+```
+
+Json Format
+
+```json
+    [
+      {
+        "Address": "",
+        "Zip Code": "",
+      },
+      {
+        "Address": "",
+        "Zip Code": "",
+
+      },
+    ]
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -110,7 +120,6 @@ Returns true if att fiber is available
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -137,10 +146,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 Project Link: [https://github.com/sithpow/att_availability_checker](https://github.com/sithpow/att_availability_checker)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
