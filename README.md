@@ -15,14 +15,14 @@
   <p align="center">
     A basic script to check if a given address has att fiber availible
     <br />
-    <a href="https://github.com/sithpow/att_availability_checker"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/s-mil/att_availability_checker"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/sithpow/att_availability_checker">View Demo</a>
+    <a href="https://github.com/s-mil/att_availability_checker">View Demo</a>
     ·
-    <a href="https://github.com/sithpow/att_availability_checker/issues">Report Bug</a>
+    <a href="https://github.com/s-mil/att_availability_checker/issues">Report Bug</a>
     ·
-    <a href="https://github.com/sithpow/att_availability_checker/issues">Request Feature</a>
+    <a href="https://github.com/s-mil/att_availability_checker/issues">Request Feature</a>
   </p>
 </div>
 
@@ -134,7 +134,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Project Link: [https://github.com/sithpow/att_availability_checker](https://github.com/sithpow/att_availability_checker)
+Project Link: [https://github.com/s-mil/att_availability_checker](https://github.com/s-mil/att_availability_checker)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,13 +145,13 @@ Project Link: [https://github.com/sithpow/att_availability_checker](https://gith
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/sithpow/att_availability_checker.svg?style=for-the-badge
-[contributors-url]: https://github.com/sithpow/att_availability_checker/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/sithpow/att_availability_checker.svg?style=for-the-badge
-[forks-url]: https://github.com/sithpow/att_availability_checker/network/members
-[stars-shield]: https://img.shields.io/github/stars/sithpow/att_availability_checker.svg?style=for-the-badge
-[stars-url]: https://github.com/sithpow/att_availability_checker/stargazers
-[issues-shield]: https://img.shields.io/github/issues/sithpow/att_availability_checker.svg?style=for-the-badge
-[issues-url]: https://github.com/sithpow/att_availability_checker/issues
-[license-shield]: https://img.shields.io/github/license/sithpow/att_availability_checker.svg?style=for-the-badge
-[license-url]: https://github.com/sithpow/att_availability_checker/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/s-mil/att_availability_checker.svg?style=for-the-badge
+[contributors-url]: https://github.com/s-mil/att_availability_checker/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/s-mil/att_availability_checker.svg?style=for-the-badge
+[forks-url]: https://github.com/s-mil/att_availability_checker/network/members
+[stars-shield]: https://img.shields.io/github/stars/s-mil/att_availability_checker.svg?style=for-the-badge
+[stars-url]: https://github.com/s-mil/att_availability_checker/stargazers
+[issues-shield]: https://img.shields.io/github/issues/s-mil/att_availability_checker.svg?style=for-the-badge
+[issues-url]: https://github.com/s-mil/att_availability_checker/issues
+[license-shield]: https://img.shields.io/github/license/s-mil/att_availability_checker.svg?style=for-the-badge
+[license-url]: https://github.com/s-mil/att_availability_checker/blob/master/LICENSE.txt
